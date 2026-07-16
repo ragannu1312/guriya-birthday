@@ -7,7 +7,6 @@ document.getElementById("message").style.display="block";
     launchRocket();
 
     showBirthdayText();
-}
 
 window.scrollTo({
 top:0,

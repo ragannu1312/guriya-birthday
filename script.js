@@ -55,3 +55,22 @@ setInterval(createHeart,300);
     pointer-events:none;
     z-index:999;
 }
+function launchRocket(){
+
+const rocket=document.getElementById("rocket");
+
+rocket.style.display="block";
+
+rocket.classList.add("launch");
+
+setTimeout(()=>{
+
+rocket.style.display="none";
+
+rocket.classList.remove("launch");
+
+firework();
+
+},2500);
+
+}

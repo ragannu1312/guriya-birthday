@@ -131,6 +131,7 @@ opacity:0;
 }
 .cake{
 font-size:90px;
+  display:inline-block;
 animation:bounce 2s infinite;
 }
 

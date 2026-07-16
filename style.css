@@ -154,4 +154,31 @@ transform:translateY(-25px);
     height:100%;
     pointer-events:none;
     z-index:999;
+  #rocket{
+position:fixed;
+bottom:-100px;
+left:50%;
+transform:translateX(-50%);
+font-size:50px;
+z-index:9999;
+display:none;
+}
+
+.launch{
+animation:launchRocket 2.5s linear forwards;
+}
+
+@keyframes launchRocket{
+
+0%{
+bottom:-100px;
+opacity:1;
+}
+
+100%{
+bottom:80%;
+opacity:1;
+}
+
+}
 }

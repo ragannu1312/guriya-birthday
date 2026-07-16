@@ -3,7 +3,9 @@ function startSurprise() {
 document.querySelector(".hero").style.display="none";
 
 document.getElementById("message").style.display="block";
+    
     launchRocket();
+}
 
 window.scrollTo({
 top:0,

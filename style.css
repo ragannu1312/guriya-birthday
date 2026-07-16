@@ -182,4 +182,53 @@ opacity:1;
 }
 
 }
+body{
+overflow-x:hidden;
+}
+
+#birthdayText{
+position:fixed;
+top:40%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:55px;
+font-weight:bold;
+color:#fff;
+text-align:center;
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff4da6,
+0 0 40px #ff1493,
+0 0 80px #ff1493;
+opacity:0;
+z-index:10000;
+animation:none;
+}
+
+.showText{
+animation:glowText 8s forwards;
+}
+
+@keyframes glowText{
+
+0%{
+opacity:0;
+transform:translate(-50%,-50%) scale(.5);
+}
+
+20%{
+opacity:1;
+transform:translate(-50%,-50%) scale(1.1);
+}
+
+80%{
+opacity:1;
+}
+
+100%{
+opacity:0;
+transform:translate(-50%,-50%) scale(1);
+}
+
+}
 

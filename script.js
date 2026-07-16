@@ -69,3 +69,16 @@ firework();
 },2500);
 
 }
+function showBirthdayText(){
+
+const txt=document.getElementById("birthdayText");
+
+txt.classList.add("showText");
+
+setTimeout(()=>{
+
+txt.classList.remove("showText");
+
+},8000);
+
+}

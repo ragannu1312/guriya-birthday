@@ -185,6 +185,23 @@ Aaj meri zindagi ka sabse khoobsurat rishta ban gaya...
     <div class="hearts"></div>
     
 <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.10.8/dist/index.umd.js"></script>
+
+<script>
+const container = document.body;
+
+const fireworks = new Fireworks.default(container,{
+  autoresize:true,
+  opacity:0.5,
+  acceleration:1.05,
+  friction:0.97,
+  gravity:1.5,
+  particles:120,
+  explosion:8
+});
+
+fireworks.start();
+</script>
 
 </body>
  

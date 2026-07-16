@@ -71,7 +71,8 @@ firework();
 },2500);
 
 }
-function showBirthdayText(){
+function showBirthdayText()
+{
 
 const txt=document.getElementById("birthdayText");
 

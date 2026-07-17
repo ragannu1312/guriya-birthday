@@ -334,3 +334,16 @@ transform:scale(1);
 transform:scale(1.05);
 }
 }
+audio{
+width:90%;
+max-width:450px;
+margin:15px auto;
+display:block;
+border-radius:30px;
+box-shadow:0 0 20px hotpink;
+}
+
+audio:hover{
+transform:scale(1.03);
+transition:.3s;
+}

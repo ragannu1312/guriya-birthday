@@ -107,7 +107,7 @@ document.getElementById("countdown").innerHTML=
 
 updateCountdown();
 setInterval(updateCountdown,1000);
-const message = `Kabhi socha nahi tha ki meri zindagi me koi aisa bhi aayega...
+const message = Kabhi socha nahi tha ki meri zindagi me koi aisa bhi aayega...
 
 Jo khoon ka rishta na hote hue bhi meri duniya ban jayega.
 
@@ -121,7 +121,7 @@ Lekin meri har khushi, har dua aur har muskaan me tum shamil ho.
 Happy 20th Birthday Meri Guriya ❤️
 
 Guguu, chahe kuch bhi ho jaye, main hamesha tere sath rahunga aur hamesha teri khushi ki dua karunga ❤️
-I Love You Guguu ❤️ 🥺";
+I Love You Guguu ❤️ 🥺;
 
 let i = 0;
 

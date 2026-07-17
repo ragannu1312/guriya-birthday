@@ -241,4 +241,42 @@ transform:translate(-50%,-50%) scale(1);
 }
 
 }
+.countdown{
+font-size:28px;
+font-weight:bold;
+margin-top:20px;
+color:#fff;
+text-shadow:0 0 10px #ff1493;
+}
 
+.scroll-down{
+margin-top:25px;
+font-size:18px;
+animation:updown 1.5s infinite;
+}
+
+@keyframes updown{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(10px);
+}
+}
+
+button{
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+background:#ff1493;
+color:white;
+cursor:pointer;
+box-shadow:0 0 20px #ff1493;
+transition:.4s;
+}
+
+button:hover{
+transform:scale(1.08);
+box-shadow:0 0 40px #ff1493;
+}

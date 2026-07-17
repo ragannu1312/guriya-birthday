@@ -334,6 +334,11 @@ transform:scale(1);
 transform:scale(1.05);
 }
 }
+
+#bgMusic{
+display:none;
+}
+
 .song-card{
 background:rgba(255,255,255,.12);
 padding:20px;

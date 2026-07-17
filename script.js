@@ -3,6 +3,9 @@ function startSurprise() {
 document.querySelector(".hero").style.display="none";
 
 document.getElementById("message").style.display="block";
+    document.getElementById("letter").innerHTML = "";
+i = 0;
+typeWriter();
     
     launchRocket();
 

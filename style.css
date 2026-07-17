@@ -350,8 +350,12 @@ box-shadow:0 0 20px rgba(255,105,180,.5);
 }
 
 .song-card h3{
-margin-bottom:15px;
-color:#FFD700;
+color:#ff1493;
+font-size:24px;
+font-weight:bold;
+text-shadow:0 0 10px white;
+}
+
 }
 
 .song-card audio{

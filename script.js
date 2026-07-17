@@ -101,3 +101,27 @@ document.getElementById("countdown").innerHTML=
 
 updateCountdown();
 setInterval(updateCountdown,1000);
+const message = `Kabhi socha nahi tha ki meri zindagi me koi aisa bhi aayega...
+
+Jo khoon ka rishta na hote hue bhi meri duniya ban jayega.
+
+Log kehte hain sirf khoon ke rishte hi apne hote hain...
+
+Lekin tumne mujhe sikha diya ki dil se bane rishte sabse khoobsurat hote hain.
+
+Tum meri sagi behen nahi ho...
+Lekin meri har khushi, har dua aur har muskaan me tum shamil ho.
+
+Happy 20th Birthday Meri Guriya ❤️
+
+Main hamesha tumhare saath rahunga.`;
+
+let i = 0;
+
+function typeWriter() {
+    if (i < message.length) {
+        document.getElementById("letter").innerHTML += message.charAt(i);
+        i++;
+        setTimeout(typeWriter, 35);
+    }
+}

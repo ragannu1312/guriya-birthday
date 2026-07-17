@@ -384,3 +384,21 @@ line-height:35px;
 color:#FFD700;
 margin-top:20px;
 }
+.slideshow{
+width:90%;
+max-width:600px;
+margin:30px auto;
+}
+
+.slideshow img{
+width:100%;
+border-radius:20px;
+box-shadow:0 0 20px hotpink;
+animation:zoom 5s infinite;
+}
+
+@keyframes zoom{
+0%{transform:scale(1);}
+50%{transform:scale(1.05);}
+100%{transform:scale(1);}
+}

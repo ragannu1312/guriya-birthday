@@ -19,6 +19,9 @@ behavior:"smooth"
 document.body.style.background="linear-gradient(135deg,#ff4b91,#ff9ed2,#fff0b3)";
 
 alert("🎉 Happy Birthday Meri Guriya ❤️");
+    
+    const music = document.getElementById("bgMusic");
+music.play().catch(() => {});
 
 }
 // Gallery animation

@@ -84,3 +84,20 @@ txt.classList.remove("showText");
 },8000);
 
 }
+function updateCountdown(){
+
+const target=new Date("August 7, 2026 00:00:00").getTime();
+
+const now=new Date().getTime();
+
+const distance=target-now;
+
+const days=Math.floor(distance/(1000*60*60*24));
+
+document.getElementById("countdown").innerHTML=
+"⏳ Birthday Countdown : "+days+" Days ❤️";
+
+}
+
+updateCountdown();
+setInterval(updateCountdown,1000);

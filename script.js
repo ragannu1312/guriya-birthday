@@ -120,7 +120,8 @@ Lekin meri har khushi, har dua aur har muskaan me tum shamil ho.
 
 Happy 20th Birthday Meri Guriya ❤️
 
-Main hamesha tumhare saath rahunga.`;
+Guguu, chahe kuch bhi ho jaye, main hamesha tere sath rahunga aur hamesha teri khushi ki dua karunga ❤️
+I Love You Guguu ❤️ 🥺";
 
 let i = 0;
 

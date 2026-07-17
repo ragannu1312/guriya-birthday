@@ -322,3 +322,15 @@ opacity:1;
 transform:translateY(0);
 }
 }
+h1,h2{
+animation:heartbeat 2s infinite;
+}
+
+@keyframes heartbeat{
+0%,100%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.05);
+}
+}
